@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.23.6",
+    "parcel": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.2"
+  },
+  "scripts": {
+    "start": "parcel public/index.html --dist-dir ../backend/public",
+    "build": "parcel build public/index.html --dist-dir ../backend/public"
+  },
+  "devDependencies": {
+    "@parcel/transformer-less": "^2.7.0",
+    "postcss": "^8.4.18",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.2.0"
+  }
+}
