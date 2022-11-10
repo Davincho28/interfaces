@@ -37,7 +37,7 @@ export const Courses = () => {
                                 <Link to={'/Courses'}><a href='' className='text-black hover:text-red-600'>Courses</a></Link>
                             </div>
                             <div>
-                                <a href='' className='text-black hover:text-red-600'>People</a>
+                                <Link to={'/Table'}><a href='' className='text-black hover:text-red-600'>Table</a></Link>
                             </div>
                             <div>
                                 <a href='' className='text-black hover:text-red-600'>Analitycs</a>
